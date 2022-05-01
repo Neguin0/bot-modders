@@ -240,6 +240,9 @@ const connect = async () => {
 				if (cmd && isGroup) console.log(`${Color.verde}[CMD] ${Color.reset}${msg} ${Color.amarelo}de ${Color.azul}${nick} ${Color.amarelo}em ${Color.azul}${groupName}${Color.reset}`);
 				if (cmd) client.sendReadReceipt(jid, id, [dados.key.id]);
 				switch (cmd) {
+					case 'menu':
+						await reply(`*💻 Menu Bot Modders*\n\`\`\`Consultas Gratuitas\`\`\`\n\n→ ${Prefix}cpf\n→ ${Prefix}cpf2\n→ ${Prefix}cpf3\n→ ${Prefix}tel\n→ ${Prefix}nome\n→ ${Prefix}cnpj\n→ ${Prefix}cns\n→ ${Prefix}placa`);
+						break
 					case 'exc':
 						if (!isDono) return reply('*Comando apenas para o dono!*');
 						try {
@@ -371,9 +374,6 @@ const connect = async () => {
 						} else if (data && data.http_code) {
 							await reply(`Não foi possível fazer a consulta.\nHTTP_CODE: ${data.http_code}\nResponse: ${data.error}`)
 						} else await reply("Servidor não respondeu.")
-						break
-					case 'menu':
-						await reply(`*💻 Menu Bot Modders*\n\`\`\`Consultas Gratuitas\`\`\`\n\n→ ${Prefix}cpf\n→ ${Prefix}cpf2\n→ ${Prefix}cpf3\n→ ${Prefix}tel\n→ ${Prefix}nome\n→ ${Prefix}cnpj\n→ ${Prefix}cns\n→ ${Prefix}placa`);
 						break
 				}
 			} catch (e) {
