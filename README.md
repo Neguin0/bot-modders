@@ -22,7 +22,7 @@ Execute o script
 ```bash
 node index
 ```
-**Não esqueça de colocar seu número no arquivo [Lib/db.json](https://github.com/Neguin0/bot-modders/blob/main/lib/db.json)**
+**Não esqueça de colocar seu número no arquivo [lib/db.json](lib/db.json)**
 
 ## Contato
 - [Neguin](https://wa.me/556199955345)
