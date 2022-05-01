@@ -1,5 +1,5 @@
 # Bot Consultas Modders
-Bot para whatsapp para realizar consultas de dados,\
+Bot para whatsapp para realizar consultas de dados,
 usando uma API **Gratuita** feita por nós para fazer as consultas.
 
 ## Requisitos
@@ -22,7 +22,7 @@ Execute o script
 ```bash
 node index
 ```
-**Não esqueça de colocar seu número no arquivo [Lib/db.json](./lib.db.json)
+**Não esqueça de colocar seu número no arquivo [Lib/db.json](https://github.com/Neguin0/bot-modders/blob/main/lib/db.json)**
 
 ## Contato
 - [Neguin](https://wa.me/556199955345)
