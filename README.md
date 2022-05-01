@@ -22,6 +22,8 @@ Execute o script
 ```bash
 node index
 ```
+**Não esqueça de colocar seu número no arquivo [Lib/db.json](./lib.db.json)
+
 ## Contato
 - [Neguin](https://wa.me/556199955345)
 - [Grupo dos Modders](https://chat.whatsapp.com/FfYwi4AIMq4LfibL2gcrnC)
