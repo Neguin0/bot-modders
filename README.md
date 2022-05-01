@@ -1,6 +1,6 @@
 # Bot Consultas Modders
-Bot para whatsapp para realizar consultas de dados\
-usamos uma API Gratuita para fazer as consultas.
+Bot para whatsapp para realizar consultas de dados,\
+usando uma API Gratuita feita por nós para fazer as consultas.
 
 ## Requisitos
 - NodeJS
