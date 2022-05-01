@@ -20,5 +20,5 @@ npm install
 ```
 Execute o script
 ```bash
-node index.js
+node index
 ```
