@@ -22,3 +22,7 @@ Execute o script
 ```bash
 node index
 ```
+## Contato
+- [Neguin](https://wa.me/556199955345)
+- [Grupo dos Modders](https://chat.whatsapp.com/FfYwi4AIMq4LfibL2gcrnC)
+- [Grupo de Desenvolvedores de Bot](https://chat.whatsapp.com/DqF68wia7opDATl7q3gNsQ)
