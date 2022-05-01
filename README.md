@@ -8,16 +8,17 @@ usamos uma API Gratuita para fazer as consultas.
 ## Instalação
 Clone o repositório
 ```bash
-git clone https://github.com/Neguin0/bot-modders.git```
-
+git clone https://github.com/Neguin0/bot-modders.git
+```
 Entre na pasta
 ```bash
-cd bot-modders```
-
+cd bot-modders
+```
 Instale os módulos
 ```bash
-npm install```
-
+npm install
+```
 Execute o script
 ```bash
-node index.js```
+node index.js
+```
